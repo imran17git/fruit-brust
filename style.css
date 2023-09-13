@@ -1,0 +1,137 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+  
+*{
+    font-family: 'Roboto', sans-serif;
+    overflow-x:hidden ;
+ }
+
+.custom-navbar-container {
+    max-width: 800px;
+    margin: 0 auto; 
+    border-radius: 20px; 
+    
+}
+
+/* slider  */
+.slider-1{
+    background-image: url(./images/banner4.png);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}.slider-2{
+    background-image: url(./images/banner2.png);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}.slider-3{
+    background-image: url(./images/banner3.png);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.fruit-list{
+    width: 1000px;
+    background-color:white;
+    position: relative;
+    margin-top: -90px;
+}
+
+/* card */
+
+.card-img-top{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    
+}
+.card-body{
+    text-align: center;
+}
+
+.pink-star {
+  color: rgb(194, 47, 72); 
+}
+
+
+/* team  */
+
+.team-banner{
+    background-image: url(./images/banner1.png);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.team-intro{
+    text-align: center;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.team-member h3 {
+    margin-top: 10px;
+}
+
+.team-member p {
+    font-size: 14px;
+}
+
+.why-img{
+    height: 300px;
+    width: 350px;
+}
+
+/* footer  */
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: auto;
+}
+
+.footer-logo img {
+    max-width: 100px;
+}
+
+.footer-logo h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.footer-logos img {
+    max-width: 40px;
+    margin: 10px;
+}
+
+.footer-text {
+    font-size: 14px;
+}
+    
